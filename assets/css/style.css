@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'Roboto', serif;
+}
+
+
+:root {
+    --primary-color: #;
+    --secondary-color: #;
+    --body-color: #;
+    --heading: #;
+    --paragraph: #;
+}
+
+
+/***** Navbar *****/
+
+.nav-link {
+    font-family: Roboto;
+    font-size: 1.6rem !important;
+    font-weight: 400 !important;
+    line-height: 2.6rem !important;
+    letter-spacing: 0em !important;
+    text-align: center;
+    color: #000000 !important;
+
+}
+
+.logo-main {
+    width: 100%;
+    max-width: 8.8rem;
+    height: 100%;
+    max-height: 8.8rem;
+}
+
+/***** End Navbar *****/
+
+
+
+/***** Main *****/
+
+/***** Hero Section *****/
+
+.hero-section {
+    font-size: 3.2rem !important;
+    background: #FFD741;
+
+}
+
+.p-head {
+    font-family: Roboto;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 100% !important;
+    max-width: 44.7rem !important;
+}
+
+.p-head-c {
+    font-family: Roboto;
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 3.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.car-content {
+    font-family: Roboto;
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    width: 100% !important;
+    max-width: 44.7rem !important;
+}
+
+.car-row-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 66.9rem;
+    height: 100%;
+    max-height: 50rem;
+}
+
+.illustration-container {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.freepik {
+    border-bottom: 1px solid #000000;
+}
+
+/***** End Hero Section *****/
+
+/***** Services Section *****/
+
+.car-content-a {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #A0A0A0;
+
+}
+
+.card {
+    background: #FFD741;
+    width: 100% !important;
+    max-width: 29.8rem;
+    height: 100% !important;
+    min-height: 23.1rem;
+}
+
+.card-title {
+    font-family: Roboto;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2.1rem;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.card-content {
+    font-family: Roboto;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #393939;
+}
+
+.card-cont {
+    width: 100% !important;
+    max-width: 100rem;
+}
+
+.card-cont1 {
+    width: 100% !important;
+    max-width: 100rem;
+}
+
+.card-img-top {
+    width: 100% !important;
+    max-width: 4.6rem !important;
+}
+
+/***** End Services Section *****/
+
+/***** About Us Section *****/
+
+.about-us-section {
+    background: #E3E3E3;
+    position: relative;
+    margin-top: 8rem !important;
+
+}
+
+.black-container {
+    position: absolute;
+    top: -13%;
+    right: 4rem;
+    bottom: -13%;
+}
+
+.about-row {
+    height: 100% !important;
+    min-height: 38.3rem;
+}
+
+.black {
+    width: 100% !important;
+    max-width: 57.4rem;
+    height: 100% !important;
+    max-height: 51.4rem;
+}
+
+#coach,
+#coach1 {
+    color: #FEC828;
+}
+
+.car-content-1 {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.6rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    width: 100% !important;
+    max-width: 44.7rem !important;
+}
+
+/***** End About Us Section *****/
+
+/***** Client Section *****/
+
+.clients-section {
+    margin-top: 5rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: #828282;
+}
+
+.carousel-indicators {
+    bottom: -8rem;
+}
+
+.ser-log {
+    width: 100% !important;
+    max-width: 11rem !important;
+    height: 100% !important;
+    max-height: 11.4rem !important;
+}
+
+.ser-log-s {
+    width: 100% !important;
+    max-width: 94.4rem;
+}
+
+
+/***** End Client Section *****/
+
+
+/***** Footer *****/
+.foot {
+    margin-top: 5rem;
+}
+
+.footer-section {
+    margin-top: 8rem !important;
+}
+
+.f-section{
+    padding-bottom: 5rem;
+}
+
+.f-content {
+    width: 100%;
+    max-width: 32.5rem;
+    text-align: left !important;
+    font-weight: 400;
+}
+
+.f-content-1 {
+    text-align: left !important;
+}
+
+.f-input {
+    border-radius: 0;
+    border-left: 5px solid #FFD741
+}
+
+.f-input::placeholder {
+    padding-left: 3rem;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+}
+
+.btn-warning {
+    font-family: Roboto;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.6rem;
+    letter-spacing: 0.15em;
+    text-align: left;
+    padding-left: 5rem !important;
+    padding-right: 5rem !important;
+    border-radius: 0;
+    background: #FFD741;
+    color: #000000;
+}
+
+/***** End Footer *****/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***** End Main *****/
+
+
+
+
+/***** Media *****/
+
+@media screen and (max-width: 1200px) {
+
+    .black-container {
+        position: relative;
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        right: 0;
+    }
+
+    .about-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem !important;
+    }
+
+    .about-row-c {
+        margin-top: 3rem !important;
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    * {
+        font-size: 58.5%;
+    }
+
+
+
+    .p-head {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* width: 100% !important; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+
+    .nav-link {
+        padding-left: 0 !important;
+    }
+
+    .p-head {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .car-content,
+    .car-content-1 {
+        text-align: center;
+    }
+
+    .ser-h {
+        display: none;
+    }
+
+
+
+    .logo-con {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        text-align: center !important;
+        width: 100% !important;
+        height: 100% !important;
+        padding-right: 4rem;
+    }
+
+
+    .client-sec {
+        width: 100% !important;
+        align-items: center !important;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 576px) {
+
+
+    a.navbar-brand {
+        margin-left: 1rem !important;
+        padding: 1rem 0 !important;
+    }
+
+
+    .p-head {
+        font-size: 2.2rem;
+
+    }
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .f-section {
+        justify-content: center !important;
+        align-items: center;
+    }
+
+    .p-head-c {
+        text-align: center !important;
+    }
+
+    .f-content {
+        text-align: center !important;
+    }
+
+
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+
+    * {
+        font-size: 48.5%;
+    }
+
+
+
+
+    .p-head {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+        margin: 1rem 0 !important;
+        padding: 0 !important;
+    }
+
+    .car-content {
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        margin: 1rem 0 !important;
+        padding: 0 !important;
+    }
+
+    .ser-log {
+        max-width: 6rem !important;
+        max-height: 6rem !important;
+    }
+    .form-group{
+
+        width: 100% !important;
+    }
+}
+
+
+/***** End Media *****/
